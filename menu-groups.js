@@ -7,8 +7,8 @@
     menu[category].push(...codes.map(code => eggItems.get(code)).filter(Boolean));
   };
 
-  move('CHOP SUEY', ['43', '43A', '46A']);
+  move('CHOP SUEY', ['43A']);
   move('PRAWN', ['45', '46']);
-  move('CHICKEN', ['44', '47']);
+  move('CHICKEN', ['43', '44', '46A', '47']);
   delete menu.EGG;
 })();
